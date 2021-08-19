@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
 </head>
+
 <body style="font-family: Courier Prime">
+<nav>
+<div id="topnav">
+  <a class="active" href="#hakkimda">Hakkımda</a>
+  <a href="#calismalar">Çalışmalar</a>
+  <a href="#yetenekler">Yetenekler</a>
+  <a href="#iletisim">İletişim</a>
+</div>
+</nav>
 
-    <nav>
-    <a href="#bas"> Hakkımda </a> <br> 
-    <a href="#calismalar"> Çalışmalarım </a> <br>
-    <a href="#yetenekler"> Yetenekler </a> <br>
-    <a href="#iletisim"> İletişim </a> <br>
-    <a href="https://github.com/erhan-namli">Github</a>
-    </nav>
-
-    <section id="bas">
+    <section id="hakkimda">
+    <br>
+    <br>
     <h1 style="font-size: 40px;color: white;text-align: center;font-family:Courier Prime; background-color:rgb(96, 113, 131);">HAKKIMDA</h1>
-    <a href="https://ibb.co/Z14PBS4"><img src="https://i.ibb.co/zH9YXF9/480.jpg" alt="480" border="0" style="display: block;margin-left: auto;margin-right: auto;width: 35%;"></a>
+    <img src="https://erhan-namli.github.io/assets/img/480.jpg" alt="480" border="0" style="display: block;margin-left: auto;margin-right: auto;width: 35%;">
     <div style="text-align: center;">
     <article>
     <p style="font-family: 'Courier Prime';
@@ -29,51 +37,143 @@
     </div>
     </section>
 
-    <section id="calismalar">
+    <section class="calismalar">
+
     <h1 style="color:white;text-align: center; font-size:40px; background-color:rgb(96, 113, 131);">Çalışmalarım</h1>
-    <div>
-    <ol>
-    <li>
-    <h3 style="text-align: center;">Mobil Otonom Araç</h3>
-    <br>
-    <img src="https://erhan-namli.github.io/assets/img/portfolio/Proje%20Otonom/IMG-1213.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 35%;">
-    </li>
-    <li>
-    <h3 style="text-align: center;">Engelden Kaçan Araç</h3>
-    <br>
-    <img src="https://erhan-namli.github.io/assets/img/WhatsApp%20Image%202021-07-01%20at%2023.30.56.jpeg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 360px;">
-    </li></ol>
-    
+
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="https://erhan-namli.github.io/assets/img/portfolio/Proje%20Otonom/IMG-1213.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 85%;">
+          <h3 style="text-align: center;">Mobil Otonom Araç</h3>
+          <p>Falan filan</p>
+          <button id="myBtn">Open Modal</button>
+        </div>
+      </div>
     </div>
 
-    </section>
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <a href=""></a>
+          <img src="https://erhan-namli.github.io/assets/img/portfolio/Proje%20Otonom/IMG-1213.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 85%;">
+          <h3 style="text-align: center;">My Work</h3>
+          <p>Falan filan</p>
+          <button id="myBtn2">Open Modal</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="https://erhan-namli.github.io/assets/img/portfolio/Proje%20Otonom/IMG-1213.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 85%;">
+          <h3 style="text-align: center;">My Work</h3>
+          <p>Falan filan</p>
+          <button id="myBtn3">Open Modal</button>
+        </div>
+      </div>
+    </div>
 
     <section id="yetenekler">
 
     <h1  style="color:white;text-align: center; font-size:40px; background-color:rgb(96, 113, 131);">Yetenekler</h1>
-    <ol style="font-size: 25px;"><li>
-    Python</li>
-    <li>
-    Makine Öğrenmesi - Derin Öğrenme</li>
-    <li>
-    Mikrodenetleyiciler</li>
-    <li>
-    Nesnelerin İnterneti</li>
-    <li>Web Site Tasarımı</li></ol>
+
+    <p>Python</p>
+    <div class="container">
+    <div class="skills html">90%</div>
+    </div>
+
+    <p>Web Tasarım</p>
+    <div class="container">
+      <div class="skills css">80%</div>
+    </div>
+
+    <p>Makine Öğrenmesi-Derin Öğrenme</p>
+    <div class="container">
+      <div class="skills js">65%</div>
+    </div>
+
+    <p>Nesnelerin İnterneti</p>
+    <div class="container">
+      <div class="skills php">60%</div>
+    </div>
+
+    
 
     </section>
 
     <section id="iletisim">
 
+    
+
     <h1 style="font-size: 40px;color: white;text-align: center;font-family:Courier Prime; background-color:rgb(96, 113, 131);">İletişim</h1>
     
-    <div style="text-align:center">
     
-    <a style="font-size:30px; color:black; text-align:center"href="https://www.instagram.com/erhanyme/?hl=tr">İnstagram</a>
+
+    <div id="iletisimdiv" style="text-align:center">
     
+    <span>
+    <a target="_blank" href="#" class="fa fa-instagram"></a>
+    <a target="_blank" style="font-size:30px; color:black; text-align:center"href="https://www.instagram.com/erhanyme/?hl=tr">İnstagram</a>
+    </span>
+    <span>
+    <a target="_blank" href="#" class="fa fa-linkedin"></a>  
+    <a target="_blank" style="font-size:30px; color:black; text-align:center"href="https://www.linkedin.com/in/erhan-namli-ege/">LinkedIn</a>
+    </span>
+    <span>
+    <a target="_blank" class="fa fa-github" style="font-size:48px"></a>
+    <a target="_blank" style="font-size:30px; color:black; text-align:center"href="https://github.com/erhan-namli">GitHub</a>
+    </span>
+     
     </div>
+    
     
     </section>
 
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <h3 style="text-align: center;">Falan</h3>
+
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+<!-- The Modal2 -->
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close2">&times;</span>
+
+    <h3 style="text-align: center;">Falan</h3>
+
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+<!-- The Modal3 -->
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close3">&times;</span>
+
+    <h3 style="text-align: center;">Falan</h3>
+
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+<script src="myScript.js"></script>
 </body>
 </html>
