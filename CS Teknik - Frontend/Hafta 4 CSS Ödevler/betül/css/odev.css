@@ -1,0 +1,93 @@
+#logo{
+    width: 300px;
+    height: 100px;
+}
+
+.giris{
+    text-align: center;
+    font-style: italic;
+    color: rgb(14, 14, 167);
+    font-weight: bold;
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: 19px;
+    padding: 0% 4% 0% 0%;
+    font-weight: bold;
+}
+
+#menu {
+    margin: auto;
+}
+
+.ürün {
+    width: 250px;
+    height: 365px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px black solid;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.ürün img {
+    width: 200px;
+    height: 250px;
+    padding: 0px 15px;
+}
+
+.ürün h3, h4{
+    text-align: center;
+    margin: 2px;
+}
+
+.fiyat {
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover {
+    color: rgb(14, 14, 167);
+}
+
+.anasayfa_icerik{
+    text-align: center;
+}
+
+.anasayfa_icerik p{
+    font-size: 25px;
+    width: 675px;
+    height: 100px;
+    margin: auto;
+    padding: 15px 0px;
+    color: rgb(14, 14, 167);
+    font-weight: bold;
+}
+
+.anasayfa_icerik img{
+    width: 700px;
+    height: 350px;
+}
+
+.hakkimizda{
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px rgb(14, 14, 167) solid;
+    text-align: justify;
+}
+
+
+
